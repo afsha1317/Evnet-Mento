@@ -1,0 +1,63 @@
+CREATE TABLE IF NOT EXISTS Gallery (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255),
+  imageUrl TEXT,
+  uploadedAt DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS Events (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255),
+  description TEXT,
+  date DATE,
+  createdAt DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+DROP TABLE Events;
+CREATE TABLE IF NOT EXISTS Events (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  time VARCHAR(100),
+  venue VARCHAR(255),
+  bannerUrl TEXT,
+  createdAt DATETIME NOT NULL,
+  updatedAt DATETIME NOT NULL
+);
+CREATE TABLE IF NOT EXISTS Events (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  time VARCHAR(100),
+  venue VARCHAR(255),
+  bannerUrl TEXT,
+  createdAt DATETIME NOT NULL,
+  updatedAt DATETIME NOT NULL
+);         
+drop table gallery
+
+CREATE TABLE  Events (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  time VARCHAR(100),
+  venue VARCHAR(255),
+  bannerUrl TEXT,
+  createdAt DATETIME NOT NULL,
+  updatedAt DATETIME NOT NULL
+);   
+
+
+
+CREATE TABLE IF NOT EXISTS Events (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  time VARCHAR(100),
+  venue VARCHAR(255),
+  bannerUrl TEXT,
+  createdAt DATETIME NOT NULL,
+  updatedAt DATETIME NOT NULL
+);               
+
+DROP TABLE IF EXISTS gallery;
+SHOW TABLES FROM qrpay_db;
+
+
+

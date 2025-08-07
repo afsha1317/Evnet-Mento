@@ -1,0 +1,49 @@
+.admin-container {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.users-table th, .users-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.qr-small {
+  width: 50px;
+  height: 50px;
+}
+
+.upload-form {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-grid, .events-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-card, .event-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+.gallery-card img, .event-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
